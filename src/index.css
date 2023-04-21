@@ -11,3 +11,387 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: grid;
+  grid-template-rows: 0.1fr 1.6fr 0.3fr;
+}
+
+li {
+  list-style-type: none;
+}
+
+.custom_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background: #F4CE14;
+  border-radius: 16px;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  padding: 24px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_nav {
+  height: fit-content;
+}
+
+.header_nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 688px;
+}
+
+.header_nav a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+/*Main styling */
+.hero_background {
+  position: absolute;
+  background-color: #495E57;
+  width: 100%;
+  height: 406px;
+  z-index: -999;
+}
+
+.hero_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 86px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 399px;
+  height: 345px;
+}
+
+.content h1 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 56px;
+  color: #F4CE14;
+  margin: 0;
+}
+
+.content h2 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #EDEFEE;
+  margin: 0;
+}
+
+.content p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #EDEFEE;
+}
+
+.highlights {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+
+.highlights > .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 298px;
+}
+
+.highlights > .header h1 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.cards {
+  width: 867px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  /* width: 289px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #EDEFEE;
+  flex-grow: 1;
+}
+
+.container p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #495E57;
+  flex-grow: 1;
+}
+
+.title_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_price > h3 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.title_price > h4 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #EE9972;
+}
+
+.order {
+  display: flex;
+  gap: 16px;
+}
+
+.order a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #333333;
+  text-decoration: none;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 0px;
+  gap: 63px;
+  background: #EDEFEE;
+}
+
+.testimonials h1 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.comments {
+  width: 860px;
+  height: 187px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.review {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  justify-content: space-between;
+}
+
+.review > img {
+  width: 50% ;
+}
+
+.avatar {
+  display: flex;
+  gap: 8px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.id {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6E6F6E;
+}
+
+.review p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6E6F6E;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 49px;
+}
+
+.about_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 373px;
+  height: 487px;
+  justify-content: center;
+}
+
+.about_content h1 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  margin: 0;
+}
+
+.about_content h2 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.about_content p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.about_title {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Footer styling */
+footer {
+  background-color: #F4CE14;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 67px 0px;
+  gap: 37px;
+  height: 100%;
+}
+
+footer > nav {
+  width: 211px;
+  height: 214px;
+}
+
+footer h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  color: #495E57;
+}
+
+.doormat_nav > ul, .contact > ul, .social_media > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact > ul {
+  padding-top: 22px;
+}
+
+footer a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  text-transform: capitalize;
+  text-decoration: none;
+}

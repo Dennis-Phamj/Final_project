@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer>
       <img src={footer_img} alt="food" />
-      <nav>
-        <ul className="doormat_nav">
+      <nav className="doormat_nav">
+        <ul>
           <h1>doormat navigation</h1>
           <li>
             <a href="/home">home</a>

@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav>
+    <nav className="header_nav">
       <ul>
         <li>
           <a href="/home">home</a>
@@ -9,16 +9,16 @@ export default function Nav() {
           <a href="/about">about</a>
         </li>
         <li>
-          <a href="/blog">menu</a>
+          <a href="/menu">menu</a>
         </li>
         <li>
-          <a href="/blog">reservations</a>
+          <a href="/reservations">reservations</a>
         </li>
         <li>
-          <a href="/blog">order online</a>
+          <a href="/order_online">order online</a>
         </li>
         <li>
-          <a href="/blog">login</a>
+          <a href="/login">login</a>
         </li>
       </ul>
     </nav>
