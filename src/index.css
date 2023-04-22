@@ -11,3 +11,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: grid;
+  grid-template-rows: 0.1fr 1.6fr 0.3fr;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.custom_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background: #F4CE14;
+  border-radius: 16px;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  padding: 24px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_nav {
+  height: fit-content;
+}
+
+.header_nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 688px;
+}
+
+.header_nav a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 24px 0px;
+}
+
+.confirmed {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 56px;
+}
+
+/*Footer styling */
+footer {
+  background-color: #F4CE14;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 67px 0px;
+  gap: 37px;
+  height: 100%;
+}
+
+footer > nav {
+  width: 211px;
+  height: 214px;
+}
+
+footer h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  color: #495E57;
+}
+
+.doormat_nav > ul, .contact > ul, .social_media > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact > ul {
+  padding-top: 22px;
+}
+
+footer a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  text-transform: capitalize;
+  text-decoration: none;
+}
