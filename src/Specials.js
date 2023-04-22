@@ -24,7 +24,9 @@ export default function Specials() {
               rosemary croutons.
             </p>
             <div className="order">
-              <a href="order_online">Order A Delivery</a>
+              <a href="order_online" aria-label="On Click">
+                Order A Delivery
+              </a>
               <img src={bike} alt="bike img" />
             </div>
           </div>
@@ -41,7 +43,9 @@ export default function Specials() {
               with garlic and seasoned with salt and olive oil.
             </p>
             <div className="order">
-              <a href="order_online">Order A Delivery</a>
+              <a href="order_online" aria-label="On Click">
+                Order A Delivery
+              </a>
               <img src={bike} alt="bike img" />
             </div>
           </div>
@@ -59,7 +63,9 @@ export default function Specials() {
               imagined.
             </p>
             <div className="order">
-              <a href="order_online">Order A Delivery</a>
+              <a href="order_online" aria-label="On Click">
+                Order A Delivery
+              </a>
               <img src={bike} alt="bike img" />
             </div>
           </div>

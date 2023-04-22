@@ -8,22 +8,34 @@ export default function Footer() {
         <ul>
           <h1>doormat navigation</h1>
           <li>
-            <a href="/home">home</a>
+            <a href="/" aria-label="On Click">
+              home
+            </a>
           </li>
           <li>
-            <a href="/about">about</a>
+            <a href="/about" aria-label="On Click">
+              about
+            </a>
           </li>
           <li>
-            <a href="/blog">menu</a>
+            <a href="/menu" aria-label="On Click">
+              menu
+            </a>
           </li>
           <li>
-            <a href="/blog">reservations</a>
+            <a href="/booking" aria-label="On Click">
+              reservations
+            </a>
           </li>
           <li>
-            <a href="/blog">order online</a>
+            <a href="/order_online" aria-label="On Click">
+              order online
+            </a>
           </li>
           <li>
-            <a href="/blog">login</a>
+            <a href="/login" aria-label="On Click">
+              login
+            </a>
           </li>
         </ul>
       </nav>
@@ -31,13 +43,19 @@ export default function Footer() {
         <ul>
           <h1>contact</h1>
           <li>
-            <a href="/home">address</a>
+            <a href="/adress" aria-label="On Click">
+              address
+            </a>
           </li>
           <li>
-            <a href="/about">phone number</a>
+            <a href="/number" aria-label="On Click">
+              phone number
+            </a>
           </li>
           <li>
-            <a href="/blog">email</a>
+            <a href="/email" aria-label="On Click">
+              email
+            </a>
           </li>
         </ul>
       </nav>
@@ -45,13 +63,19 @@ export default function Footer() {
         <ul>
           <h1>social media links</h1>
           <li>
-            <a href="/home">address</a>
+            <a href="/adress" aria-label="On Click">
+              address
+            </a>
           </li>
           <li>
-            <a href="/about">phone number</a>
+            <a href="/number" aria-label="On Click">
+              phone number
+            </a>
           </li>
           <li>
-            <a href="/blog">email</a>
+            <a href="/email" aria-label="On Click">
+              email
+            </a>
           </li>
         </ul>
       </nav>

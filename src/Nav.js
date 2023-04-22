@@ -3,22 +3,34 @@ export default function Nav() {
     <nav className="header_nav">
       <ul>
         <li>
-          <a href="/">home</a>
+          <a href="/" aria-label="On Click">
+            home
+          </a>
         </li>
         <li>
-          <a href="/about">about</a>
+          <a href="/about" aria-label="On Click">
+            about
+          </a>
         </li>
         <li>
-          <a href="/menu">menu</a>
+          <a href="/menu" aria-label="On Click">
+            menu
+          </a>
         </li>
         <li>
-          <a href="/reservations">reservations</a>
+          <a href="/booking" aria-label="On Click">
+            reservations
+          </a>
         </li>
         <li>
-          <a href="/order_online">order online</a>
+          <a href="/order_online" aria-label="On Click">
+            order online
+          </a>
         </li>
         <li>
-          <a href="/login">login</a>
+          <a href="/login" aria-label="On Click">
+            login
+          </a>
         </li>
       </ul>
     </nav>

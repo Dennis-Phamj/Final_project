@@ -1,0 +1,18 @@
+.booking_title {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 56px;
+    color: #F4CE14;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input, form select {
+    height: 40px;
+}
