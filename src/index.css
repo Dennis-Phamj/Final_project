@@ -17,6 +17,10 @@ code {
   grid-template-rows: 0.1fr 1.6fr 0.3fr;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
 }
